@@ -18,7 +18,6 @@ import { loadingCityAtom, placeAtom } from "./atom";
 import { useAtom } from "jotai";
 import { useEffect } from "react";
 
-// https://api.openweathermap.org/data/2.5/forecast?q=Chandler&APPID=3360bdad0d0ff303e841cea2b2e836f0&cnt=2
 
 interface WeatherData {
   cod: string;
